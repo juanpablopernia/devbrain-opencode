@@ -1,0 +1,115 @@
+Checklist para validar skills nuevas en OpenCode (Linux / WSL / Git Bash)
+
+1. Ir al kit
+
+cd /mnt/c/Desarrollos/devbrain-opencode-v2
+
+2. Reinstalar el kit globalmente
+
+./bin/install-global.sh --force
+
+Esto debería copiar agents, commands y skills a:
+
+~/.config/opencode/
+
+3. Verificar que las skills existen en la instalación global
+
+ls ~/.config/opencode/skills
+
+Debes ver al menos:
+- frontend
+- php-laravel-project
+
+Luego verifica dentro:
+
+ls ~/.config/opencode/skills/frontend
+ls ~/.config/opencode/skills/php-laravel-project
+
+Deberían existir:
+- SKILL.md
+- y en frontend también:
+  - GUIDELINES.md
+  - EMAIL_DESIGN.md
+
+4. Si también tienes un proyecto ya inicializado, actualizarlo
+
+./bin/update-project-kit.sh /ruta/de/tu-proyecto --force
+
+Ejemplo:
+
+./bin/update-project-kit.sh /mnt/c/Desarrollos/mi-proyecto --force
+
+5. Verificar skills dentro del proyecto
+
+ls /mnt/c/Desarrollos/mi-proyecto/.opencode/skills
+
+6. Cerrar OpenCode por completo
+
+Salir totalmente de la sesión actual.
+
+7. Volver a abrir OpenCode
+
+cd /mnt/c/Desarrollos/mi-proyecto
+opencode
+
+8. Probar activación de skill frontend
+
+quiero diseñar una landing page moderna, responsive y accesible
+
+O:
+
+quiero una plantilla de email promocional moderna y mobile-first
+
+9. Probar activación de skill Laravel
+
+quiero crear un proyecto nuevo en Laravel moderno con autenticación
+
+10. Si no aparecen todavía
+
+A. Verifica el archivo
+
+cat ~/.config/opencode/skills/frontend/SKILL.md
+cat ~/.config/opencode/skills/php-laravel-project/SKILL.md
+
+B. Verifica frontmatter
+
+Debe empezar así:
+
+---
+name: frontend
+description: ...
+compatibility: opencode
+---
+
+y
+
+---
+name: php-laravel-project
+description: ...
+compatibility: opencode
+---
+
+C. Reinicia OpenCode completamente
+
+No solo cierres el chat: cierra el proceso y vuelve a abrirlo.
+
+D. Reinstala con force otra vez
+
+./bin/install-global.sh --force
+
+Orden ideal resumido
+
+cd /mnt/c/Desarrollos/devbrain-opencode-v2
+./bin/install-global.sh --force
+./bin/update-project-kit.sh /mnt/c/Desarrollos/mi-proyecto --force
+
+Luego:
+
+cd /mnt/c/Desarrollos/mi-proyecto
+opencode
+
+Y prueba:
+
+quiero una landing page moderna
+quiero una plantilla de email promocional
+quiero un proyecto nuevo en Laravel moderno

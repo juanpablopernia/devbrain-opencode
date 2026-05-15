@@ -1,0 +1,147 @@
+Guía para ejecutar un proyecto nuevo con DevBrain OpenCode Kit
+
+1. Crear la carpeta del proyecto
+
+mkdir mi-proyecto
+
+2. Inicializar la estructura con el kit
+
+/path/to/devbrain-opencode-v2/bin/init-project.sh mi-proyecto
+
+En PowerShell:
+
+\path\to\devbrain-opencode-v2\bin\init-project.ps1 -TargetDir mi-proyecto
+
+3. Entrar al proyecto
+
+cd mi-proyecto
+
+4. Abrir OpenCode
+
+opencode
+
+5. Empezar el flujo recomendado
+
+/new-project <descripción del proyecto>
+
+O paso a paso:
+
+/intake
+/plan
+/implement
+/review
+/document
+
+Flujo recomendado
+
+1. /new-project
+
+Úsalo si quieres arrancar rápido con contexto desde el inicio.
+
+Ejemplo:
+
+/new-project crear un sistema de login en PHP moderno para un proyecto personal
+
+2. /intake
+
+Sirve para levantar requisitos antes de diseñar o programar.
+
+Qué decir:
+- qué quieres construir
+- si es personal o laboral
+- stack deseado
+- si quieres PHP nativo o Laravel
+- si habrá base de datos
+- si necesitas frontend
+- si usarás .env
+
+Ejemplo:
+
+/intake quiero un formulario de login en PHP nativo moderno, con email y password, sesiones, validación y .env.example
+
+3. /plan
+
+Genera arquitectura y plan de implementación.
+
+Ejemplo:
+
+/plan proponer estructura para login en PHP moderno
+
+4. /implement
+
+Construye por etapas.
+
+Ejemplo:
+
+/implement crear formulario de login en PHP nativo moderno
+
+5. /review
+
+Revisa calidad, seguridad y consistencia.
+
+6. /document
+
+Actualiza README y memoria del proyecto.
+
+Cómo elegir el stack
+
+- Si quieres algo simple y liviano: PHP nativo moderno
+- Si quieres algo más estructurado y escalable: Laravel moderno
+- Si no defines stack: el kit tenderá a proponerte Python + FastAPI, así que conviene decir explícitamente que quieres PHP
+
+Ejemplos de arranque
+
+Ejemplo 1: Login en PHP nativo
+
+/new-project crear un formulario de login en PHP nativo moderno para un proyecto personal, con validación, sesiones, .env.example y README
+
+Ejemplo 2: Login en Laravel
+
+/new-project crear un login en Laravel moderno con autenticación por email y password, validación, .env.example y documentación básica
+
+Ejemplo 3: Landing page
+
+/new-project crear una landing page moderna responsive para un negocio local
+
+Qué crea init-project
+
+Normalmente te deja:
+- AGENTS.md
+- docs/brain/CONTEXT_INDEX.md
+- docs/brain/PROJECT_BLUEPRINT.md
+- docs/brain/DECISIONS.md
+- docs/brain/MEMORY.md
+- docs/brain/ERRORS_SOLVED.md
+- .opencode/
+- .env.example
+
+Regla importante
+
+Cuando abras un proyecto nuevo, el orden mental ideal es:
+
+1. definir qué quieres
+2. levantar requisitos con /intake
+3. planificar con /plan
+4. implementar con /implement
+5. revisar con /review
+6. documentar con /document
+
+Plantilla reutilizable
+
+/new-project crear [tipo de proyecto] para [objetivo], usando [stack], con [funcionalidades principales], para [tipo de usuario], y quiero que tenga [frontend/backend/base de datos/.env/deploy]
+
+Ejemplo:
+
+/new-project crear un formulario de login para un proyecto personal, usando PHP nativo moderno, con validación, sesiones, .env.example y README
+
+Recomendación práctica
+
+Para cualquier proyecto nuevo usa siempre esta secuencia mínima:
+
+/path/to/devbrain-opencode-v2/bin/init-project.sh nombre-del-proyecto
+cd nombre-del-proyecto
+opencode
+
+Y dentro:
+
+/new-project ...

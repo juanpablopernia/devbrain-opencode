@@ -1,0 +1,95 @@
+Checklist para validar skills nuevas en OpenCode (Windows / PowerShell)
+
+1. Ir al kit
+
+Set-Location "C:\Desarrollos\devbrain-opencode-v2"
+
+2. Para instalación global, usar Git Bash o WSL
+
+Los scripts install-global.sh y update-project-kit.sh son bash.
+Lo más práctico es ejecutarlos desde:
+- Git Bash
+- WSL
+
+3. Desde Git Bash o WSL, reinstalar el kit globalmente
+
+cd /mnt/c/Desarrollos/devbrain-opencode-v2
+./bin/install-global.sh --force
+
+4. Si tienes un proyecto ya inicializado, actualizarlo
+
+./bin/update-project-kit.sh /mnt/c/Desarrollos/mi-proyecto --force
+
+5. Si quieres inicializar un proyecto local desde PowerShell
+
+.\bin\init-project.ps1 -TargetDir "C:\Desarrollos\mi-proyecto"
+
+6. Abrir el proyecto en PowerShell
+
+Set-Location "C:\Desarrollos\mi-proyecto"
+
+7. Abrir OpenCode
+
+opencode
+
+8. Probar prompts para activar skills
+
+Frontend:
+
+quiero diseñar una interfaz responsive con buena accesibilidad
+
+Email:
+
+quiero crear una plantilla de email de bienvenida profesional
+
+Laravel:
+
+quiero un proyecto en Laravel moderno con login
+
+9. Qué validar exactamente
+
+Skill frontend debe cubrir:
+- UI web
+- landing pages
+- widgets
+- emails
+
+Skill php-laravel-project debe responder a prompts sobre:
+- Laravel moderno
+- autenticación
+- estructura idiomática
+- .env.example
+
+10. Si no aparecen todavía
+
+A. Vuelve a ejecutar desde Git Bash o WSL:
+
+cd /mnt/c/Desarrollos/devbrain-opencode-v2
+./bin/install-global.sh --force
+./bin/update-project-kit.sh /mnt/c/Desarrollos/mi-proyecto --force
+
+B. Cierra OpenCode completamente
+
+C. Vuelve a abrir OpenCode en el proyecto
+
+Set-Location "C:\Desarrollos\mi-proyecto"
+opencode
+
+Flujo recomendado híbrido
+
+Desde Git Bash o WSL:
+
+cd /mnt/c/Desarrollos/devbrain-opencode-v2
+./bin/install-global.sh --force
+./bin/update-project-kit.sh /mnt/c/Desarrollos/mi-proyecto --force
+
+Luego en PowerShell:
+
+Set-Location "C:\Desarrollos\mi-proyecto"
+opencode
+
+Y prueba:
+
+quiero diseñar una landing page moderna
+quiero una plantilla de email promocional
+quiero un proyecto nuevo en Laravel moderno
