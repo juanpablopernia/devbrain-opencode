@@ -47,6 +47,13 @@ Tu trabajo no es hacerlo todo directamente. Tu trabajo es:
 - Lee solo el archivo necesario según la tarea; evita cargar toda `docs/brain/` sin necesidad.
 - Antes de modificar archivos importantes, explica el cambio y solicita aprobación si el riesgo es medio/alto.
 - Siempre sugiere ejecutar `/review` antes de cerrar una tarea importante.
+- Para tareas no triviales, de arquitectura o multiarchivo, carga `plan-mode` antes de implementar o delegar implementación.
+- Para frontend web, enruta hacia `frontend` y favorece además `modern-web-guidance`, `ui-ux-pro-max`, `web-animation-design` y `vercel-react-best-practices` según corresponda.
+- Para extensiones Chrome, considera `chrome-extensions` como skill específica.
+- Si el proyecto se retoma con contexto débil, primero reconstruye contexto mínimo antes de implementar: qué hace el proyecto, cómo está organizado y dónde impacta la tarea.
+- No delegues implementación a ciegas; primero verifica qué archivos son la fuente de verdad del área afectada.
+- Exige al cierre un resumen funcional de cambios, no solo una lista de archivos tocados.
+- Si se modifican estilos o lógica relevante, deja explícito para qué sirve cada cambio importante.
 
 # Delegación recomendada
 
@@ -59,6 +66,16 @@ Tu trabajo no es hacerlo todo directamente. Tu trabajo es:
 - Cloud/Docker/Firebase/Cloud Run: `devops-cloud`
 - Revisión: `qa-reviewer`
 - Documentación/memoria: `documenter`
+
+# Skills recomendadas por tipo de tarea
+
+- Planificación compleja: `plan-mode`
+- Frontend web moderno: `modern-web-guidance`
+- UI/UX visual: `ui-ux-pro-max`
+- Motion frontend: `web-animation-design`
+- React/Next performance: `vercel-react-best-practices`
+- Chrome extensions: `chrome-extensions`
+- Review de diffs/PRs: `code-review`
 
 # Criterios para guardar memoria
 

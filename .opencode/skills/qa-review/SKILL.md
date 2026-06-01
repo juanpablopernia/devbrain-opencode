@@ -6,6 +6,8 @@ compatibility: opencode
 
 ## Checklist
 
+Usa `code-review` como complemento cuando exista un diff, commit, rama o PR específico que revisar.
+
 ### Seguridad
 
 - No hay secrets hardcodeados.
@@ -47,3 +49,10 @@ Clasificar hallazgos:
 - Medio.
 - Bajo.
 - Recomendación.
+
+Para bugs o seguridad, describe:
+
+- Escenario donde ocurre.
+- Causa raíz.
+- Impacto concreto.
+- Corrección sugerida.

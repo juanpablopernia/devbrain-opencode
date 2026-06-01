@@ -46,6 +46,18 @@ Usa esta skill cuando el proyecto necesite:
 - Modernizar una web antigua.
 - Crear una experiencia responsive para escritorio, tablet y móvil.
 
+## Skills complementarias
+
+Combina esta skill con otras especializadas cuando aplique:
+
+- `modern-web-guidance`: para frontend web moderno, APIs del navegador, CSS actual y performance web.
+- `ui-ux-pro-max`: para dirección visual, UX, tipografía, color y consistencia de interfaz.
+- `web-animation-design`: para timing, easing, motion y microinteracciones.
+- `vercel-react-best-practices`: para React y Next.js con foco en performance.
+- `chrome-extensions`: para extensiones de navegador.
+
+Esta skill es la base general; no debe reemplazar a las skills anteriores cuando el problema sea claramente especializado.
+
 ## Principios principales
 
 Siempre debes priorizar:

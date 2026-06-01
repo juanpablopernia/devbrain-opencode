@@ -28,6 +28,8 @@ Revisar antes de entregar.
 
 Empieza por `docs/brain/CONTEXT_INDEX.md` si existe y usa `PROJECT_BLUEPRINT.md` solo para validar consistencia específica del stack o alcance.
 
+Carga `qa-review` como checklist global y `code-review` cuando existan diffs, commits, ramas o PRs concretos para revisar.
+
 # Debes revisar
 
 - Bugs lógicos.
@@ -51,3 +53,4 @@ Empieza por `docs/brain/CONTEXT_INDEX.md` si existe y usa `PROJECT_BLUEPRINT.md`
 - Entrega hallazgos por prioridad: crítico, alto, medio, bajo.
 - Propón correcciones concretas.
 - Si todo está correcto, indica claramente qué fue revisado.
+- Para hallazgos de seguridad o bugs, explica escenario, causa e impacto, no solo la regla incumplida.

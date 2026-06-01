@@ -26,6 +26,9 @@ Contexto estable y reutilizable. No usar este archivo como historial largo.
 - Guardar errores relevantes en `ERRORS_SOLVED.md`
 - Leer solo el archivo necesario según la tarea
 - Ejecutar `/review` antes de cerrar cambios importantes
+- Antes de cambiar código, reconstruir contexto mínimo del proyecto y evitar cambios a ciegas
+- Al cerrar cambios, resumir qué se modificó, para qué sirve y qué impacto funcional tiene
+- Explicar CSS y funciones relevantes cuando eso ayude a retomar el proyecto más adelante
 
 ## Rutas clave
 - `AGENTS.md`
@@ -54,3 +57,4 @@ Contexto estable y reutilizable. No usar este archivo como historial largo.
 ## Pendientes críticos
 - Mantener la ficha técnica del repo alineada con su uso real
 - Seguir documentando solo decisiones y errores con impacto futuro
+- Mantener suficiente contexto funcional para poder retomar trabajo semanas después sin depender de memoria conversacional

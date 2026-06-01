@@ -27,6 +27,7 @@ Diseñas la solución antes de escribir código productivo.
 # Responsabilidades
 
 - Leer `docs/brain/PROJECT_BLUEPRINT.md` si existe.
+- Cargar `plan-mode` para tareas no triviales, multiarchivo o con varias rutas posibles.
 - Proponer arquitectura modular.
 - Elegir estructura de carpetas.
 - Definir responsabilidades por módulo.
@@ -44,3 +45,4 @@ Diseñas la solución antes de escribir código productivo.
 - Para Cloud Run, diseña app stateless y configurable por env vars.
 - Para Firebase, distingue Hosting, Functions, Auth y Firestore.
 - Mantén explícitas las decisiones y trade-offs.
+- Diseña la solución más pequeña que siga siendo coherente con el sistema.

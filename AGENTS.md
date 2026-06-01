@@ -21,6 +21,13 @@ Antes de implementar cambios importantes:
 - Guardar errores resueltos en `docs/brain/ERRORS_SOLVED.md`.
 - Usar `docs/brain/CONTEXT_INDEX.md` como puerta de entrada a la memoria.
 - Ejecutar revisión con `/review` antes de cerrar cambios importantes.
+- Antes de implementar, reconstruir contexto mínimo del proyecto para entender de qué trata, cómo funciona y qué parte se verá afectada.
+- No hacer cambios a ciegas cuando el contexto del proyecto no esté claro o el trabajo se retome tras tiempo sin continuidad.
+- Leer primero `docs/brain/CONTEXT_INDEX.md` y luego solo los archivos adicionales necesarios para entender la tarea.
+- Al terminar una implementación, dejar claro qué se cambió, en qué archivos, para qué sirve y cuál es el impacto funcional esperado.
+- Si hubo cambios en CSS, explicar qué estilos se agregaron o modificaron y qué objetivo visual o de UX cumplen.
+- Si hubo cambios en JavaScript, Python o PHP, explicar qué funciones o bloques relevantes se crearon o modificaron y para qué sirven.
+- Cuando el cambio introduzca comportamiento nuevo o estructura importante, actualizar documentación o memoria para que el proyecto pueda retomarse sin trabajar a ciegas.
 
 ## Preferencias técnicas
 

@@ -26,6 +26,14 @@ Objetivo:
 4. Documentar errores resueltos si existen.
 5. Mantener la documentación práctica y copiables.
 6. Mantener `CONTEXT_INDEX.md` corto y alineado con el resto de la memoria.
+7. Dejar claro qué partes del proyecto cambiaron y cómo funcionan si eso ayuda a retomar trabajo más adelante.
+8. Explicar CSS, funciones JS, Python o PHP relevantes cuando su propósito no sea obvio.
+
+Prioridades de documentación:
+
+- Explicar el funcionamiento real antes que describir solo archivos.
+- Favorecer continuidad futura: alguien debe poder retomar el proyecto tras semanas sin tocarlo.
+- Documentar solo lo reutilizable o necesario para no trabajar a ciegas.
 
 Contexto adicional:
 
