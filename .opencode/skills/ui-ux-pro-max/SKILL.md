@@ -14,6 +14,7 @@ Skill para elevar calidad visual y de experiencia en interfaces web o móviles.
 - Refactor visual de componentes.
 - Decisiones de color, tipografía, espaciado y jerarquía.
 - Revisión de UX, accesibilidad y consistencia.
+- Pedidos donde la interfaz deba verse más premium, más memorable, con mejor branding visual o menos genérica.
 
 ## Prioridades
 
@@ -43,6 +44,7 @@ Skill para elevar calidad visual y de experiencia en interfaces web o móviles.
 ## Complementos recomendados
 
 - Usa `frontend` para implementación.
+- Usa `frontend-art-direction` cuando la dirección estética, el acabado premium o la diferenciación visual sean parte central del pedido.
 - Usa `modern-web-guidance` para patrones web modernos.
 - Usa `web-animation-design` si la experiencia depende de motion.
 

@@ -40,6 +40,7 @@ Usa esta skill cuando el proyecto necesite:
 - Crear un widget embebible.
 - Revisar accesibilidad.
 - Mejorar diseño visual.
+- Crear una interfaz más premium, memorable o menos genérica, combinando esta skill con `frontend-art-direction` cuando la dirección estética sea parte importante del resultado.
 - Mejorar usabilidad.
 - Mejorar performance frontend.
 - Corregir estados UI: loading, error, empty, success.
@@ -50,13 +51,14 @@ Usa esta skill cuando el proyecto necesite:
 
 Combina esta skill con otras especializadas cuando aplique:
 
+- `frontend-art-direction`: para interfaces con dirección visual fuerte, acabado premium, estética memorable y menos apariencia genérica.
 - `modern-web-guidance`: para frontend web moderno, APIs del navegador, CSS actual y performance web.
 - `ui-ux-pro-max`: para dirección visual, UX, tipografía, color y consistencia de interfaz.
 - `web-animation-design`: para timing, easing, motion y microinteracciones.
 - `vercel-react-best-practices`: para React y Next.js con foco en performance.
 - `chrome-extensions`: para extensiones de navegador.
 
-Esta skill es la base general; no debe reemplazar a las skills anteriores cuando el problema sea claramente especializado.
+Esta skill es la base general; no debe reemplazar a las skills anteriores cuando el problema sea claramente especializado. Si el usuario pide una UI “más bonita”, “más premium”, “más memorable” o “menos genérica”, prioriza complementar con `frontend-art-direction`.
 
 ## Principios principales
 

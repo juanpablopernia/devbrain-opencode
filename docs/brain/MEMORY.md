@@ -39,6 +39,10 @@ Contexto estable y reutilizable. No usar este archivo como historial largo.
 - `templates/`
 - `bin/`
 
+## Capacidades reutilizables destacadas
+- Skill `google-seo` en `.opencode/skills/google-seo/SKILL.md` para auditoría SEO on-page, metadatos, headings, URLs, alt text, JSON-LD, SEO local y checklist de publicación.
+- Skill `frontend-art-direction` en `.opencode/skills/frontend-art-direction/SKILL.md` para crear interfaces frontend memorables, de alta calidad visual y evitando estéticas genéricas.
+
 ## Comandos clave
 - `/intake`
 - `/plan`
